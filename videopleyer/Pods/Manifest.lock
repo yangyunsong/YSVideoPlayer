@@ -1,0 +1,15 @@
+PODS:
+  - MobileVLCKit (2.2.2)
+  - SystemServices (1.1.1)
+
+DEPENDENCIES:
+  - MobileVLCKit
+  - SystemServices
+
+SPEC CHECKSUMS:
+  MobileVLCKit: 75c2c36b0e3478c3f18cac3a2e7fa127cda0ff92
+  SystemServices: cc55971fb9b1a5b01ad11e6ae0f46483ca5affa5
+
+PODFILE CHECKSUM: 66c7a0dd7392a6a77b6d83e6de7fed06ce7f665e
+
+COCOAPODS: 1.1.1

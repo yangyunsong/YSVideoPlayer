@@ -1,0 +1,5 @@
+platform:ios,'8.0'
+
+target ‘videopleyer’
+pod 'MobileVLCKit'
+pod 'SystemServices'

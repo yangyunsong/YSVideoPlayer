@@ -1,0 +1,12 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO
+CLANG_CXX_LANGUAGE_STANDARD = c++11
+CLANG_CXX_LIBRARY = libstdc++
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/MobileVLCKit/MobileVLCKit-binary"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/MobileVLCKit" "${PODS_ROOT}/Headers/Public/SystemServices"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/SystemServices"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/MobileVLCKit" -isystem "${PODS_ROOT}/Headers/Public/SystemServices"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"SystemServices" -l"bz2" -l"iconv" -l"stdc++" -l"xml2" -l"z" -framework "AVFoundation" -framework "AudioToolbox" -framework "CFNetwork" -framework "CoreGraphics" -framework "CoreMotion" -framework "CoreTelephony" -framework "CoreText" -framework "ExternalAccessory" -framework "MobileVLCKit" -framework "OpenGLES" -framework "QuartzCore" -framework "Security"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods
