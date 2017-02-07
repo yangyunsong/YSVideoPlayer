@@ -3,3 +3,4 @@
 要做视频编码的话，使用ffmpeg会得到很好的支持！
 mobileVLCKit 太大没有上传cd到项目目录 在终端执行 pod install(看网速库有点大最好翻墙)
 
+网速渣的可以去网盘下载解压后放到Pods文件夹里链接: https://pan.baidu.com/s/1pLCWXLL 密码: zseb
